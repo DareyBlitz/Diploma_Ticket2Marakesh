@@ -27,6 +27,7 @@ dependencies {
     implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.29'
     implementation group: 'org.postgresql', name: 'postgresql', version: '42.4.0'
     testImplementation 'org.testng:testng:7.1.0'
+    testRuntimeOnly 'org.slf4j:slf4j-simple:2.0.3'
 }
 
 test {
