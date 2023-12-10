@@ -31,7 +31,7 @@ public class DebitTestAPI {
     }
 
     @Test
-    public void shouldHappyPath() {
+    public void shouldPositivePath() {
         data = DataHelper.getValidApprovedCard();
         var body = gson.toJson(data);
         given().spec(spec).body(body)
